@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Формы</title>
+<link rel="stylesheet" type="text/css" href="padfones.css">
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data" name="form1">
+  <p>
+    <label for="textfield">Как бы вы назвали свое устройство?</label>
+    <input type="text" name="textfield" id="textfield">
+  </p>
+
+  <p>
+    <label for="fileField">Эскиз вашего устройства</label>
+    <input type="file" name="fileField" id="fileField">
+  </p>
+  <p>Выберите операционную систему</p>
+  <p>
+    <label>
+      <input type="radio" name="Операционная система" value="and" id="Операционнаясистема_0">
+    Android</label>
+    <br>
+    <label>
+      <input type="radio" name="Операционная система" value="ios" id="Операционнаясистема_1">
+      iOS</label>
+    <br>
+    <label>
+      <input type="radio" name="Операционная система" value="win" id="Операционнаясистема_2">
+      Windows</label>
+    <br>
+    <label>
+      <input type="radio" name="Операционная система" value="lin" id="Операционнаясистема_3">
+      Linux</label>
+  </p>
+  <p>Дополнительные характеристики</p>
+  <p>
+    <label>
+      <input type="checkbox" name="Дополнительные характеристики" value="флажок" id="Дополнительныехарактеристики_0">
+    3G</label>
+    <br>
+    <label>
+      <input type="checkbox" name="Дополнительные характеристики" value="gps" id="Дополнительныехарактеристики_1">
+      GPS</label>
+    <br>
+    <label>
+      <input type="checkbox" name="Дополнительные характеристики" value="light" id="Дополнительныехарактеристики_2">
+      Датчик освещения</label>
+    <br>
+    <label>
+      <input type="checkbox" name="Дополнительные характеристики" value="cam" id="Дополнительныехарактеристики_3">
+      Камера</label>
+    <br>
+    <label>
+      <input type="checkbox" name="Дополнительные характеристики" value="hdmi" id="Дополнительныехарактеристики_4">
+      HDMI</label>
+  </p>
+  <p>Частота процессора</p>
+  <p>
+    <label>
+      <input type="radio" name="Частота процессора" value="10" id="Частотапроцессора_0">
+      1 ГГЦ</label>
+    <br>
+    <label>
+      <input type="radio" name="Частота процессора" value="12" id="Частотапроцессора_1">
+      1.2 ГГЦ</label>
+    <br>
+    <label>
+      <input type="radio" name="Частота процессора" value="15" id="Частотапроцессора_2">
+      1.5 ГГЦ</label>
+    <br>
+    <label>
+      <input type="radio" name="Частота процессора" value="17" id="Частотапроцессора_3">
+      1.7 ГГЦ</label>
+    <br>
+    <label>
+      <input type="radio" name="Частота процессора" value="18" id="Частотапроцессора_4">
+      1.8 ГГЦ</label>
+    <br>
+    <label for="select">Количество ядер</label>
+    <select name="select" id="select">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="4">4</option>
+      <option value="8">8</option>
+    </select>
+    <br>
+    <label for="select2">Объем оперативной памяти</label>
+    <select name="select2" id="select2">
+      <option value="0">512 МБ</option>
+      <option value="1">1 ГБ</option>
+      <option value="2">2 ГБ</option>
+    </select>
+  </p>
+  <p>Вы хотите
+    <input type="submit" name="button" id="button" value="Отправить">
+  </p>
+</form>
+<script type="text/javascript">
+var sprypassword1 = new Spry.Widget.ValidationPassword("sprypassword1");
+</script>
+</body>
+</html>
